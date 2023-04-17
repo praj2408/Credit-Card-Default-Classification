@@ -29,3 +29,6 @@ Then, run the `app.py` file to start the Flask web application:
 ```
 python app.py
 ```
+
+## Conclusion
+In this project, we have explored and preprocessed the UCI Credit Card Defaulters Dataset, selected and tuned a machine learning model, and trained and evaluated the final model. The trained model can be used to predict whether a credit card holder will default on their payments or not.
