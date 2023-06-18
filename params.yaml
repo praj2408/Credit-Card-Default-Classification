@@ -1,0 +1,11 @@
+# Here, all the parameters configurations are added
+base:
+  project: Credit Card Default Classification
+  random_state: 42
+  target_col: default.payment.next.month
+
+data_source:
+  s3_source: data_given/Credit_Card.csv
+
+load_data:
+  raw_dataset: data/raw/Credit_Card.csv
