@@ -9,3 +9,20 @@ data_source:
 
 load_data:
   raw_dataset: data/raw/Credit_Card.csv
+
+split_data:
+  train_path: data/processed/train_credit_card.csv
+  test_path: data/processed/test_credit_card.csv
+  test_size: 0.2
+
+estimators:
+  ElasticNet:
+    params:
+      alpha: 0.98
+      l1_ratio: 0.89
+
+
+
+
+
+
